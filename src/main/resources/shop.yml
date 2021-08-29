@@ -1,0 +1,789 @@
+shop:
+  armor:
+    item: DIAMOND_CHESTPLATE
+    name: '装备商店'
+    order: 10
+    lore:
+    - '§a点我进入装备商店,购买一些装备吧!'
+    offers:
+    - reward:
+      - type: LEATHER_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: §b皮革帽子
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+      price:
+      - type: CLAY_BRICK
+        amount: 1
+    - reward:
+      - type: LEATHER_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+          display-name: §b皮革裤子
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+      price:
+      - type: CLAY_BRICK
+        amount: 1
+    - reward:
+      - type: LEATHER_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b皮革靴子
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+      price:
+      - type: CLAY_BRICK
+        amount: 1
+    - reward:
+        - type: DIAMOND_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §b靴子II
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 2
+              DURABILITY: 3
+      price:
+        - type: GOLD_INGOT
+          amount: 3
+    - reward:
+        - type: DIAMOND_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §b靴子III
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 3
+              DURABILITY: 3
+      price:
+        - type: GOLD_INGOT
+          amount: 6
+    - reward:
+        - type: DIAMOND_BOOTS
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §b靴子Ⅳ
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 4
+              DURABILITY: 3
+      price:
+        - type: GOLD_INGOT
+          amount: 10
+    - reward:
+      - type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §a防磁力靴子
+          lore:
+          - §b有 75% 的几率防击退
+          - '§c副作用:'
+          - §c几率收到伤害 2 倍
+      price:
+      - type: IRON_INGOT
+        amount: 6
+      - type: GOLD_INGOT
+
+
+    - reward:
+      - type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6胸甲I
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+            DURABILITY: 3
+      price:
+      - type: IRON_INGOT
+        amount: 1
+    - reward:
+      - type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6胸甲II
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+      price:
+      - type: IRON_INGOT
+        amount: 4
+    - reward:
+      - type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6护腿III
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 1
+            DURABILITY: 3
+      price:
+      - type: GOLD_INGOT
+        amount: 6
+    - reward:
+      - type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6护腿Ⅳ
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+      price:
+        - type: GOLD_INGOT
+          amount: 8
+    - reward:
+      - type: CHAINMAIL_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6护腿II
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      price:
+      - type: IRON_INGOT
+        amount: 6
+    - reward:
+      - type: CHAINMAIL_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6胸甲III
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 3
+            DURABILITY: 3
+      price:
+      - type: IRON_INGOT
+        amount: 6
+    - reward:
+      - type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6胸甲IV
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+      price:
+      - type: IRON_INGOT
+        amount: 48
+    - reward:
+      - type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §a平底锅
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+            DURABILITY: 3
+      price:
+      - type: IRON_INGOT
+        amount: 16
+    - reward:
+        - type: DIAMOND_HELMET
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §a平底锅Ⅱ
+            enchants:
+              PROTECTION_ENVIRONMENTAL: 2
+              DURABILITY: 3
+      price:
+        - type: IRON_INGOT
+          amount: 18
+        - type: GOLD_INGOT
+          amount: 6
+  swords:
+    item: DIAMOND_SWORD
+    name: '武器商店'
+    order: 20
+    lore:
+    - '§a点我进入武器商店,购买一些武器吧!'
+    offers:
+    - reward:
+      - type: STICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e击退棒
+          enchants:
+            KNOCKBACK: 1
+      price:
+      - type: CLAY_BRICK
+        amount: 8
+    - reward:
+      - type: FISHING_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: 皮皮虾
+          enchants:
+            KNOCKBACK: 1
+            DURABILITY: 3
+      price:
+      - type: CLAY_BRICK
+        amount: 20
+    - reward:
+      - type: GOLD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 1
+            DURABILITY: 3
+      price:
+      - type: IRON_INGOT
+        amount: 3
+    - reward:
+      - type: GOLD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 2
+            DURABILITY: 3
+      price:
+      - type: IRON_INGOT
+        amount: 5
+    - reward:
+      - type: GOLD_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+            DURABILITY: 3
+      price:
+      - type: IRON_INGOT
+        amount: 7
+    - reward:
+        - type: GOLD_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            enchants:
+              DAMAGE_ALL: 4
+              DURABILITY: 3
+      price:
+        - type: IRON_INGOT
+          amount: 9
+    - reward:
+      - type: GOLD_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6战斧
+          enchants:
+            DAMAGE_ALL: 3
+            KNOCKBACK: 2
+            DURABILITY: 3
+      price:
+      - type: GOLD_INGOT
+        amount: 6
+      - type: IRON_INGOT
+        amount: 12
+    - reward:
+      - type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b大宝剑I
+          enchants:
+            DAMAGE_ALL: 2
+            KNOCKBACK: 1
+            DURABILITY: 3
+      price:
+      - type: GOLD_INGOT
+        amount: 5
+      - type: IRON_INGOT
+        amount: 10
+    - reward:
+        - type: IRON_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §b大宝剑II
+            enchants:
+              DAMAGE_ALL: 3
+              KNOCKBACK: 1
+              DURABILITY: 3
+      price:
+        - type: GOLD_INGOT
+          amount: 7
+        - type: IRON_INGOT
+          amount: 12
+    - reward:
+        - type: IRON_SWORD
+          meta:
+            ==: ItemMeta
+            meta-type: UNSPECIFIC
+            display-name: §b大宝剑III
+            enchants:
+              DAMAGE_ALL: 4
+              KNOCKBACK: 1
+              DURABILITY: 3
+      price:
+        - type: GOLD_INGOT
+          amount: 9
+        - type: IRON_INGOT
+          amount: 16
+  bows:
+    item: 261
+    name: '弓箭商店'
+    order: 30
+    lore:
+    - '§a点我进入弓箭商店,购买一些弓箭吧!'
+    offers:
+    - reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_INFINITE: 1
+      price:
+      - type: GOLD_INGOT
+        amount: 4
+    - reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 1
+            ARROW_INFINITE: 1
+      price:
+      - type: GOLD_INGOT
+        amount: 7
+    - reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 2
+            ARROW_INFINITE: 1
+      price:
+      - type: GOLD_INGOT
+        amount: 13
+    - reward:
+      - type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c火弓
+          enchants:
+            ARROW_KNOCKBACK: 2
+            ARROW_FIRE: 2
+            ARROW_INFINITE: 2
+      price:
+      - type: GOLD_INGOT
+        amount: 15
+    - reward:
+      - type: ARROW
+        amount: 1
+      price:
+      - type: GOLD_INGOT
+  pickaxes:
+    item: DIAMOND_PICKAXE
+    name: '工具商店'
+    order: 40
+    lore:
+    - '§a点我进入工具商店,购买一些工具吧!'
+    offers:
+    - reward:
+      - type: STONE_SPADE
+      price:
+      - type: CLAY_BRICK
+        amount: 4
+    - reward:
+      - type: IRON_SPADE
+      price:
+      - type: IRON_INGOT
+        amount: 4
+    - reward:
+      - type: IRON_SPADE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 3
+      price:
+      - type: IRON_INGOT
+        amount: 8
+    - reward:
+      - type: IRON_PICKAXE
+      price:
+      - type: CLAY_BRICK
+        amount: 4
+    - reward:
+      - type: IRON_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 1
+      price:
+      - type: CLAY_BRICK
+        amount: 10
+    - reward:
+      - type: IRON_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 3
+      price:
+      - type: IRON_INGOT
+        amount: 2
+    - reward:
+      - type: IRON_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 5
+      price:
+      - type: IRON_INGOT
+        amount: 6
+    - reward:
+      - type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 3
+      price:
+      - type: GOLD_INGOT
+        amount: 8
+    - reward:
+      - type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DIG_SPEED: 5
+      price:
+      - type: GOLD_INGOT
+        amount: 15
+    - reward:
+      - type: STONE_AXE
+      price:
+      - type: IRON_INGOT
+        amount: 5
+    - reward:
+      - type: IRON_AXE
+      price:
+      - type: GOLD_INGOT
+        amount: 2
+  eat:
+    item: GRILLED_PORK
+    name: '食物商店'
+    order: 50
+    lore:
+    - '§a点我进入食物商店,购买一些食物吧!'
+    offers:
+    - reward:
+      - type: GRILLED_PORK
+        amount: 2
+      price:
+      - type: CLAY_BRICK
+        amount: 4
+    - reward:
+      - type: GOLDEN_APPLE
+      price:
+      - type: IRON_INGOT
+        amount: 2
+    - reward:
+      - type: BREAD
+        amount: 2
+      price:
+      - type: IRON_INGOT
+        amount: 4
+  blocks:
+    item: SANDSTONE
+    name: '方块商店'
+    order: 60
+    lore:
+    - '§a点我进入方块商店,购买一些方块吧!'
+    offers:
+    - reward:
+      - type: STAINED_CLAY
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: LEATHER_ARMOR
+      price:
+      - type: CLAY_BRICK
+        amount: 2
+    - reward:
+      - type: SANDSTONE
+        amount: 2
+      price:
+      - type: CLAY_BRICK
+        amount: 1
+    - reward:
+      - type: ENDER_STONE
+      price:
+      - type: CLAY_BRICK
+        amount: 7
+    - reward:
+      - type: IRON_BLOCK
+      price:
+      - type: IRON_INGOT
+        amount: 3
+    - reward:
+      - type: GLOWSTONE
+        amount: 4
+      price:
+      - type: CLAY_BRICK
+        amount: 15
+    - reward:
+      - type: LEAVES
+      price:
+      - type: CLAY_BRICK
+        amount: 1
+  usefulstuff:
+    item: TNT
+    name: '杂货商店'
+    order: 70
+    lore:
+    - '§a点我进入杂货商店,购买一些杂货吧!'
+    offers:
+    - reward:
+      - type: TNT
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c§lTNT
+      price:
+      - type: IRON_INGOT
+        amount: 2
+    - reward:
+      - type: FLINT_AND_STEEL
+      price:
+      - type: GOLD_INGOT
+    - reward:
+      - type: CHEST
+      price:
+      - type: IRON_INGOT
+        amount: 1
+    - reward:
+      - type: ENDER_CHEST
+      price:
+      - type: GOLD_INGOT
+        amount: 1
+    - reward:
+      - type: BLAZE_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §c援救平台
+          lore:
+          - §b§l在空中使用该平台
+          - §b§l将在脚下生成一块临时史莱姆方块平台救生!
+      price:
+      - type: IRON_INGOT
+        amount: 20
+    - reward:
+      - type: STRING
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §7陷阱
+          lore:
+          - §b§l将陷阱放在地上
+          - §b§l敌人踩中将会出现各种伤害效果!
+      price:
+      - type: IRON_INGOT
+        amount: 8
+    - reward:
+      - type: BRICK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §4防护墙
+          lore:
+          - §b§l使用防护墙后
+          - §b§l将在身前生成一面5x3的墙壁!
+      price:
+      - type: CLAY_BRICK
+        amount: 64
+    - reward:
+      - type: SULPHUR
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §f回城卷轴
+          lore:
+          - §b§l拿在手里右键使用
+          - §b§l将在6秒后传送到出生点.
+          - §c§l注意:移动将会取消传送!
+      price:
+      - type: IRON_INGOT
+        amount: 12
+    - reward:
+      - type: ENDER_PEARL
+        amount: 4
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §5带你飞
+      price:
+      - type: GOLD_INGOT
+        amount: 14
+    - reward:
+      - type: COMPASS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §a跟踪钟
+          lore:
+          - §b§l担心找不到敌人?
+          - §b§l跟踪种将指向玩家的大概位置!
+      price:
+      - type: GOLD_INGOT
+        amount: 1
+    - reward:
+      - type: LADDER
+        amount: 2
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §6梯子
+      price:
+      - type: CLAY_BRICK
+        amount: 4
+    - reward:
+      - type: DIAMOND_BLOCK
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §b土豪的象征
+      price:
+      - type: GOLD_INGOT
+        amount: 1
+    - reward:
+      - type: MONSTER_EGG
+        damage: 91
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §cTNT羊
+          lore:
+          - §b§l通过黑魔法召唤出一只绑满TNT的羊
+          - §b§l他将冲向你的对手
+          - §b§l并在8秒后爆炸!
+      price:
+      - type: GOLD_INGOT
+        amount: 10
+    - reward:
+      - type: SPONGE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: §e幸运方块
+      price:
+      - type: GOLD_INGOT
+        amount: 1
+      - type: IRON_INGOT
+        amount: 3
+  drinks:
+    item: POTION
+    name: '药水商店'
+    order: 80
+    lore:
+    - '§a点我进入药水商店,购买一些药水吧!'
+    offers:
+    - reward:
+      - type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: Heal 1
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 1
+            amplifier: 0
+            ambient: true
+            has-particles: true
+      price:
+      - type: IRON_INGOT
+        amount: 3
+    - reward:
+      - type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: Heal 2
+          custom-effects:
+          - ==: PotionEffect
+            effect: 6
+            duration: 1
+            amplifier: 1
+            ambient: true
+            has-particles: true
+      price:
+      - type: IRON_INGOT
+        amount: 5
+    - reward:
+      - type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §9速特药水
+          custom-effects:
+          - ==: PotionEffect
+            effect: 1
+            duration: 3600
+            amplifier: 0
+            ambient: true
+            has-particles: true
+      price:
+      - type: GOLD_INGOT
+        amount: 2
+    - reward:
+      - type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: §c大力
+          custom-effects:
+          - ==: PotionEffect
+            effect: 5
+            duration: 3600
+            amplifier: 0
+            ambient: true
+            has-particles: true
+      price:
+      - type: GOLD_INGOT
+        amount: 2
+    - reward:
+      - type: POTION
+        meta:
+          ==: ItemMeta
+          meta-type: POTION
+          display-name: Regeneration 1
+          custom-effects:
+          - ==: PotionEffect
+            effect: 10
+            duration: 900
+            amplifier: 0
+            ambient: true
+            has-particles: true
+      price:
+      - type: GOLD_INGOT
+        amount: 3
+schema-version: 1
